@@ -5,23 +5,23 @@
 class Venaqui < Formula
   desc "CLI tool with TUI for downloading files via Real-Debrid and aria2"
   homepage "https://github.com/mhrsntrk/venaqui"
-  version "1.1.1"
+  version "1.1.2"
   license "MIT"
 
   depends_on "aria2"
 
   on_macos do
     on_intel do
-      url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.1/venaqui_1.1.1_darwin_amd64.tar.gz"
-      sha256 "ca0b6eb3e63d38d2a356ebb400a751ac9f8d7deb4bce566ab09aa2eeb89af432"
+      url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.2/venaqui_1.1.2_darwin_amd64.tar.gz"
+      sha256 "fc9726f497abef56d42cf1eb25ac3c2311418da7010f2b06fab50676901dea10"
 
       def install
         bin.install "venaqui"
       end
     end
     on_arm do
-      url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.1/venaqui_1.1.1_darwin_arm64.tar.gz"
-      sha256 "c1c0dd787400422744a6f2391278b18a9c37dd9fbf7d3db96aeb46651e429f3d"
+      url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.2/venaqui_1.1.2_darwin_arm64.tar.gz"
+      sha256 "7dd89163163ceadb065b4f2936599737843311b06bf4dd387a4c14c7eef1ef24"
 
       def install
         bin.install "venaqui"
@@ -32,8 +32,8 @@ class Venaqui < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.1/venaqui_1.1.1_linux_amd64.tar.gz"
-        sha256 "9acd1cbeac314d3fb6ff8c52fd8fb46a4a3f14eb877a513846aea8a2ad6830d1"
+        url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.2/venaqui_1.1.2_linux_amd64.tar.gz"
+        sha256 "1ce025f44a03c26c336580970ad8490340aa58df313dd580672efd12a68de2ea"
 
         def install
           bin.install "venaqui"
@@ -42,8 +42,8 @@ class Venaqui < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.1/venaqui_1.1.1_linux_arm64.tar.gz"
-        sha256 "f55867492203a5bb33b2eff1c92fe66e518724dd9db0f72cf16f3cf7464c562c"
+        url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.2/venaqui_1.1.2_linux_arm64.tar.gz"
+        sha256 "46ec3a998f64ebb915ea4ceaca47ff5733c094f64ba3e32133db717241452986"
 
         def install
           bin.install "venaqui"
