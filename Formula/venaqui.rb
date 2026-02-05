@@ -13,7 +13,7 @@ class Venaqui < Formula
   on_macos do
     on_intel do
       url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.5/venaqui_1.1.5_darwin_amd64.tar.gz"
-      sha256 "ebd281cadda2e2b8be21d287498bdc70ad64fd770a533de750c00a7d058e3eff"
+      sha256 "e1327d64e138f364a5c56065e3dec9115d82f96b945bacbf5e15f8f6552d0234"
 
       def install
         bin.install "venaqui"
@@ -21,7 +21,7 @@ class Venaqui < Formula
     end
     on_arm do
       url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.5/venaqui_1.1.5_darwin_arm64.tar.gz"
-      sha256 "37d4b94ab8f9355a22b55890c1551e617e1dd1780adc2b439114e224eae26c42"
+      sha256 "d9bc8bfe6449e4ddbaa0e58e61826fff5a5301045dd2d1b7ad9a545fc1758369"
 
       def install
         bin.install "venaqui"
@@ -33,7 +33,7 @@ class Venaqui < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.5/venaqui_1.1.5_linux_amd64.tar.gz"
-        sha256 "05d59cfec06ee2d298298c3f17e13be15ad28918e77fabbe5e443538993f3bed"
+        sha256 "50925673c5e22dd3e8fe3c522422e4ba5ad93a6639a147cdacda7751dc4c5321"
 
         def install
           bin.install "venaqui"
@@ -43,7 +43,7 @@ class Venaqui < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/mhrsntrk/venaqui/releases/download/v1.1.5/venaqui_1.1.5_linux_arm64.tar.gz"
-        sha256 "4f21a1be393999a3e8f9f6ac0c2687bd6391a7063287f4bb98843eed9725111f"
+        sha256 "118481e23f6ede4a04bc4cf4c4c2f8f1db7c6099d25e8b57cfe0349fdbfb4680"
 
         def install
           bin.install "venaqui"
